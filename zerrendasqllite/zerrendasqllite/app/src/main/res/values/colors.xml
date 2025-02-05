@@ -1,0 +1,10 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light Theme Colors -->
+    <color name="light_primary">#38E9E3</color>
+    <color name="light_secondary">#4C86E0</color>
+    <color name="light_background">#3F0566</color>
+
+</resources>

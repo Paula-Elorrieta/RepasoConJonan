@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Zerrenda</string>
+    <string name="izena">Nombre</string>
+    <string name="deskripzioa">Descripción</string>
+    <string name="gorde">Guardar</string>
+    <string name="erakutsi_info">Mostrar Información</string>
+    <string name="lenguaiak">Lenguajes</string>
+    <string name="gehitu_lenguaia">Agregar lenguaje</string>
+    <string name="gehitu">Agregar</string>
+    <string name="itzuli">Volver</string>
+    <string name="id">ID</string>
+    <string name="aldatu">Modificar</string>
+    <string name="ezabatu">Eliminar</string>
+    <array name="librea">
+        <item>Software libre</item>
+        <item>Software propietario</item>
+    </array>
+    <string name="utzi">Dejar</string>
+    <string name="lenguaiaTitulua">Lenguajes</string>
+    <string name="aldatuTitulua">Modificar lenguaje</string>
+    <string name="gehituTitulua">Agregar lenguaje</string>
+</resources>
