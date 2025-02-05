@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ZerrendaSQLLite</string>
+    <string name="izena">Izena</string>
+    <string name="deskripzioa">Deskripzioa</string>
+    <string name="gorde">Gorde</string>
+    <string name="erakutsi_info">Erakutsi Info</string>
+    <string name="lenguaiak">Lenguaiak</string>
+    <string name="gehitu_lenguaia">Gehitu lenguaia</string>
+    <string name="gehitu">Gehitu</string>
+    <string name="itzuli">Itzuli</string>
+    <string name="id">ID</string>
+    <string name="aldatu">Aldatu</string>
+    <string name="ezabatu">Ezabatu</string>
+    <array name="librea">
+        <item>montaña</item>
+        <item>playa</item>
+        <item>escultura</item>
+    </array>
+    <string name="utzi">Utzi</string>
+    <string name="lenguaiaTitulua">Lenguaiak</string>
+    <string name="aldatuTitulua">Aldatu lenguaia</string>
+    <string name="gehituTitulua">Gehitu lenguaia</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="mapa_ikusi">Mapa ikusi</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
