@@ -1,0 +1,32 @@
+:host {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ocupa toda la altura de la pantalla /*/
+  background-color: #f0f0f0; /* Fondo claro para un mejor contraste */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+div[ngFor] {
+  flex: 1 1 30%; /* Ajusta el porcentaje para controlar el ancho de las columnas */
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+div[ngFor]:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}

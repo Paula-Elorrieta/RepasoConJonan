@@ -1,0 +1,23 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav #sidenav mode="side" opened="false">
+    <mat-toolbar>Menú</mat-toolbar>
+    <mat-list>
+      <mat-list-item [routerLink]="'/pages/home'" routerLinkActive="active"
+        >Listado</mat-list-item
+      >
+      <mat-list-item  [routerLink]="'/pages/sortu'" routerLinkActive="active">Sortu</mat-list-item>
+      <mat-list-item [routerLink]="'/auth/login'" routerLinkActive="active"
+        >LogOut</mat-list-item
+      >
+    </mat-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

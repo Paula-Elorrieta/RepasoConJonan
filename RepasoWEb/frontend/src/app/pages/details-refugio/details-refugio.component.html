@@ -1,0 +1,28 @@
+<head>
+	<link
+	href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"
+	rel="stylesheet"
+  />
+  </head>
+<mat-card>
+	<mat-card-header>
+		<mat-card-title>
+			<label for="nombre">Nombre:</label>
+			<mat-form-field>
+				<input matInput placeholder="Nombre" [(ngModel)]="refugio.nombre" readonly />
+			</mat-form-field>
+		</mat-card-title>
+		<mat-card-subtitle>
+			<label for="raza">Raza:</label>
+			<mat-form-field>
+				<input matInput placeholder="Raza" [(ngModel)]="refugio.direccion" readonly />
+			</mat-form-field>
+		</mat-card-subtitle>
+	</mat-card-header>
+	<mat-card-content>
+		<div id="mapa" style="height: 400px; width: 100%;"></div>
+	</mat-card-content>
+	<mat-card-actions>
+		<button mat-flat-button (click)="atzera()">Atzera</button>
+	</mat-card-actions>
+</mat-card>

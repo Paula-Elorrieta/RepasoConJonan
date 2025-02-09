@@ -1,0 +1,42 @@
+COPIAR ARCHIVO DE app.config.ts ENTERO
+
+-- Comandos para crear un proyecto de Node.js con Express y MySQL
+npm init -y
+npm install express mysql2 cors body-parser
+crear archivo index.js
+node index.js
+CUIDADO CON EL PUERTO 3000 (ya que se usa para Angular)
+
+-- Crear proyecto angular
+ng new frontend
+cd frontend
+ng serve
+
+-- Abrir json-server
+json-server --watch wa.json
+
+-- Añadir app.config.ts
+provideHttpClient()
+
+-- Añadir material
+ng add @angular/material
+--ver version angular y node
+ng --version
+node --version
+
+-- Instalar mapbox
+npm install mapbox-gl --save
+añadir el head
+<head>
+	<link
+	href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"
+	rel="stylesheet"
+  />
+  </head>
+
+  token =
+    'pk.eyJ1Ijoiam9uYW5kZXI3NzciLCJhIjoiY201anl5OHl0MWM5dDJoc2RlYzQwendweCJ9.a7mwB8YdWCJK_zd17-E9SQ';
+
+-- Transalate
+npm install @ngx-translate/core
+npm install @ngx-translate/http-loader

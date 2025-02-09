@@ -1,0 +1,68 @@
+/* login.component.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0f7fa;
+  font-family: "Roboto", sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+mat-card-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+mat-card-title {
+  font-size: 28px;
+  color: #00796b;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+mat-form-field .mat-form-field-label {
+  color: #00796b;
+}
+
+mat-form-field .mat-input-element {
+  padding: 10px;
+  border: 1px solid #b2dfdb;
+  border-radius: 4px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button[mat-raised-button] {
+  width: 100%;
+  padding: 10px;
+  background-color: #00796b;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[mat-raised-button]:hover {
+  background-color: #004d40;
+}

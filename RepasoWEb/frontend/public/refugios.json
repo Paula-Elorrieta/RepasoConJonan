@@ -1,0 +1,25 @@
+{
+  "refugios": [
+    {
+      "id": 1,
+      "nombre": "Hogar Felino",
+      "direccion": "Calle Gatos 123, Ciudad Felina",
+      "latitud":  -2.513676058797402,
+      "longitud": 42.84520855071442
+    },
+    {
+      "id": 2,
+      "nombre": "Refugio Gatuno",
+      "direccion": "Avenida Bigotes 45, Villa Michi",
+      "latitud": -1.8957271698900147,
+      "longitud": 43.3066849977451
+    },
+    {
+      "id": 3,
+      "nombre": "Santuario de Mininos",
+      "direccion": "Plaza Ronroneo 10, Pueblo Gatuno",
+      "latitud": -2.9472315349565195,
+      "longitud":  43.264581393569294
+    }
+  ]
+}

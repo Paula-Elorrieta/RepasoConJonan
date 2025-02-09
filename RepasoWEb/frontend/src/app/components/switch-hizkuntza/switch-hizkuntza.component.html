@@ -1,0 +1,11 @@
+<mat-form-field appearance="fill" class="w-full md:w-56">
+  <mat-label>Hizkuntza aukeratu:</mat-label>
+  <mat-select
+    [(value)]="selected"
+    (selectionChange)="hizkuntzaAldatu($event.value)"
+  >
+    <mat-option value="eu">Euskara</mat-option>
+    <mat-option value="es">Castellano</mat-option>
+	<mat-option value="en">Ingles</mat-option>
+  </mat-select>
+</mat-form-field>

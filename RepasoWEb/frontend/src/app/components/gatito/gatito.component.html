@@ -1,0 +1,27 @@
+<mat-card class="gatito-card">
+  <mat-card-header>
+    <mat-card-title class="gatito-title"
+      >{{ 'nombre' | translate }}: {{ gatito.nombre }}</mat-card-title
+    >
+    <mat-card-subtitle class="gatito-subtitle"
+      >{{ 'raza' | translate }}: {{ gatito.raza }}</mat-card-subtitle
+    >
+  </mat-card-header>
+
+  <mat-card-content>
+    <img
+      mat-card-image
+      [src]="gatito | argazki"
+      alt="Foto de {{ gatito.nombre }}"
+      class="gatito-image"
+    />
+    <p class="gatito-info">{{ 'edad' | translate }}: {{ gatito.edad }}</p>
+    <p class="gatito-info">{{ 'descripcion' | translate }}: {{ gatito.descripcion }}</p>
+  </mat-card-content>
+  <mat-card-footer>
+	<button mat-button (click)="xehetasunaIkusi(gatito)" >
+	  Xehetasunak
+	</button>
+	<button mat-button (click)="editatu(gatito)">Editatu</button>
+  </mat-card-footer>
+</mat-card>
