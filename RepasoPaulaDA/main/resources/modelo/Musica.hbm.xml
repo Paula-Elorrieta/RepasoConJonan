@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 11 feb 2025, 17:57:30 by Hibernate Tools 6.5.1.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="musicaclasica" name="modelo.Musica" optimistic-lock="none" table="musica">
+        <id name="idMusica" type="java.lang.Integer">
+            <column name="idMusica"/>
+            <generator class="identity"/>
+        </id>
+        <many-to-one class="modelo.Compositor" fetch="select" name="compositor">
+            <column name="compoMusica"/>
+        </many-to-one>
+        <many-to-one class="modelo.Estilo" fetch="select" name="estilo">
+            <column name="estiloMusica"/>
+        </many-to-one>
+        <property name="descMusica" type="string">
+            <column length="1000" name="DescMusica"/>
+        </property>
+    </class>
+</hibernate-mapping>
